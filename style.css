@@ -1,0 +1,31 @@
+.bg-image {
+    background: url('img/bg-exemplo.jpg') no-repeat center/cover;
+}
+
+.bg-image .container {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.bg-filter {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.9164040616246498) 35%,
+        rgba(0, 0, 0, 0.14049369747899154) 100%
+    );
+}
+
+h1 {
+    font-size: 5rem;
+    color: #fff;
+}
+
+/* 
+color
+image
+repeat
+attachment
+position/size
+*/
